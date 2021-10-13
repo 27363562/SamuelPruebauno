@@ -1,0 +1,196 @@
+header{
+
+    background-position:right;
+    background:url(fondo\ hojas\ volando.jpg) no-repeat  right ;
+     width: 100%;
+     font-family: Arial, Helvetica, sans-serif;
+       
+   }
+   
+ nav{
+
+  background: chartreuse;
+ font-size: 18px;
+ }
+   
+   
+   Marquee{
+
+     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    
+   }
+   
+   
+   footer{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 18px;
+     
+     position:relative;
+    margin-top: -10px;
+    width: 100%;
+    padding: 50px;
+    clear: both;
+    background: chartreuse;
+    
+   }
+
+#textominero{
+  display: inline-block;
+  vertical-align: top;
+  background-color: chartreuse;
+
+
+}
+#imgminero{
+
+  text-align: center;
+}
+#titulominero{
+  text-align: center;
+}
+
+#titulopetrolero{
+  text-align: center;
+}
+
+#imgpetroleo{
+
+  text-align: center;
+}
+
+
+
+#textopetroleo{
+
+  display: inline-block;
+  vertical-align: top;
+  background-color:chartreuse;
+
+}
+
+
+#principalesititulos{
+
+text-align: center;
+
+}
+
+
+#aguamayor{
+
+  background-color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+#agua{
+  text-align: center;
+}
+
+
+#airemayor{
+
+  background-color: beige;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+#aire{
+  text-align: center;
+}
+
+#desechosmayor{
+
+  background-color: chocolate;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+#desechos{
+  text-align: center;
+}
+#arbolesmayor{
+
+  background-color: darkgreen;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+#arboles{
+  text-align: center;
+}
+
+.slider{
+
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider ul{
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: cambio 20s infinite;
+  animation-direction: alternate;
+}
+
+.slider li{
+  width: 100%;
+
+  list-style: none;
+}
+
+
+.slider img{
+
+  width: 100%;
+}
+
+@keyframes cambio{
+
+  0% {margin-left: 0%;}
+  20%{margin-left: 0%;}
+
+  25%{margin-left: -100%;}
+  45%{margin-left: -100%;}
+
+  50%{margin-left: -200%;}
+  70%{margin-left: -200%;}
+
+  
+  75%{margin-left: -300%;}
+  100%{margin-left: -300%;}
+
+}
+
+
+#proteccion{
+
+  text-align: center;
+}
+
+#nosotrosimg{
+
+  text-align: center;
+}
+
+#textonosotros{
+
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#solucioness{
+
+  text-align: center;
+}
+
+#Solu{
+
+  font-family: Arial, Helvetica, sans-serif;
+}
